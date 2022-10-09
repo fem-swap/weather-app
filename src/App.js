@@ -1,10 +1,14 @@
 import "./styles.css";
-
-export default function App() {
-  return (
-    <div className="main">
-      <h1 className="temp">281.94</h1>
-      <h2 className="temp">Clouds</h2>
-    </div>
-  );
+import React, { Component } from 'react'
+import Navbar from './components/Navbar/Navbar'
+import WeatherApp from "./views/Weatherapp/Weatherapp"
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+       <WeatherApp />
+      </div>
+    )
+  }
 }
