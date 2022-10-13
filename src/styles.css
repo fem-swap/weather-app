@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url(https://images.pexels.com/photos/1229042/pexels-photo-1229042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background: url(https://images.pexels.com/photos/243971/pexels-photo-243971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -19,4 +19,31 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.backdrop {
+  background-color: #1e1e1e9a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.weather_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -10px;
+  color: white;
+}
+
+.weather_title {
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.weather_status h1, h2 {
+  list-style-type: none;
+  text-align: center;
 }
